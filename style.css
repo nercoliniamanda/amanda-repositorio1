@@ -11,8 +11,12 @@ body{
 	padding: 30px;
 }
 
-h1{
-   text-align: center
+.titulo-principal{
+	padding-left: 20px;
+}
+
+.titulo-centralizado{
+   text-align: center;
 }
 
 p{
@@ -20,7 +24,7 @@ p{
 }
 
 #missao{
-	font-size: 20px
+	font-size: 20px;
 }
 
 em strong{
@@ -34,10 +38,6 @@ em strong{
 .Beneficios{
 	background: #FFFFFF;
 	padding: 20px;
-}
-
-h2{
-	text-align: center;
 }
 
 ul {
