@@ -1,4 +1,4 @@
-header{
+header {
 	background: #BBBBBB;
 	padding: 20px 0;
 }
@@ -15,12 +15,12 @@ nav {
 	right: 0;
 }
 
-nav li{
+nav li {
 	display: inline;
 	margin: 0 0 0 15px;
 }
 
-nav a{
+nav a {
 	text-transform: uppercase;
 	color: #000000;
 	font-weight: bold;
@@ -28,18 +28,18 @@ nav a{
 	text-decoration: none;
 }
  
- nav a:hover{
+ nav a:hover {
  	color: #C78C19;
  	text-decoration: underline;
  }
 
-.produtos{
+.produtos {
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px 0;
 }
 
-.produtos li{
+.produtos li {
 	display: inline-block;
 	text-align: center;
 	width: 30%;
@@ -51,41 +51,41 @@ nav a{
 	border-radius: 10px;
 	}
 
-.produtos li:hover{
+.produtos li:hover {
 	border-color: #C78C19;
 }
 
-.produtos li: active{
+.produtos li: active {
 	border-color: #088C19;
 }
 
-.produtos li:hover h2{
+.produtos li:hover h2 {
 	font-size: 35px;
 }
 
 
-.produtos h2{
+.produtos h2 {
 	font-size: 30px;
 	font-weight: bold;
 }
 
-.produtos-descricao{
+.produtos-descricao {
 	font-size: 18px;
 }
 
-.produtos-preco{
+.produtos-preco {
 	font-size: 22px;
 	font-weight: bold;
 	margin-top: 10px;
 }
 
-footer{
+footer {
 	text-align: center;
 	background: url("bg.jpg");
 	padding: 40px 0;
 }
 
-.copyright{
+.copyright {
 	color: #FFFFFF;
 	font-size: 13px;
 	margin: 20px 0 0;
@@ -100,7 +100,7 @@ form {
 	margin: 40px 0;
 }
 
-form label. form p{
+form label. form legend {
 	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
@@ -113,6 +113,24 @@ form label. form p{
 	width: 50%;
 }
 
-.checkbox{
+.checkbox {
 	margin: 20px 0;
+}
+
+.enviar{
+	wi dth: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover { 
+	background: darkorange;
+	transform: scale(1.2);
 }
